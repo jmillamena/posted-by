@@ -16,7 +16,7 @@ function App() {
       <Route exact path="/" component={Home} />
       <Route path="/users" component={User} />
       <Route path="/friend-profiles" component={FriendProfiles} />
-      <Route path="/manages-friends" component={ManageFriends} />
+      <Route path="/manage-friends" component={ManageFriends} />
     </Switch>
   </Router>;
 }
